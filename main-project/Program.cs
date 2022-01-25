@@ -13,6 +13,7 @@ namespace main_project
             Console.WriteLine("Лабораторная работа №1");
             Console.WriteLine("Вариант №1");
             Console.WriteLine("Автор: Никита Агановский");
+<<<<<<< HEAD
             
 
             Console.WriteLine("");
@@ -38,6 +39,9 @@ namespace main_project
                 Console.WriteLine("|" + num + " " + "|" + " " + fname + " " + "|" + " " + lname + " " + "|" + " " + mname + " " + "|" + " " + start + " " + "|" + " " + finish + " " + "|" + " " + club);
 
             }
+=======
+            Console.WriteLine("Группа 14з");
+>>>>>>> data
             Console.ReadKey();
         }
     }
