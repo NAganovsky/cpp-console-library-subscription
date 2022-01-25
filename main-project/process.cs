@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace main_project
 {
-    internal class process
+    public class process
     {
+        public DateTime test(DateTime[,] test1)
+        {
+            DateTime x = DateTime.Now;
+            return x;
+        }
     }
 }

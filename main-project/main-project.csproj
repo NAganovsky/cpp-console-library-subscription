@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="file_reader.cs" />
     <Compile Include="marafon.cs" />
+    <Compile Include="process.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
