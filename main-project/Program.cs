@@ -10,7 +10,9 @@ namespace main_project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            Console.WriteLine("Лабораторная работа №1");
+            Console.WriteLine("Вариант №1");
+            Console.WriteLine("Автор: Никита Агановский");
             Console.ReadKey();
         }
     }
