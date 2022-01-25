@@ -35,7 +35,7 @@ namespace main_project
                 string finish = mas[i, 5].ToString();
                 string club = mas[i, 6].ToString();
 
-                Console.WriteLine(" " + num + " " + fname + " " + lname + " " + mname + " " + start + " " + finish + " " + club);
+                Console.WriteLine("|" + num + " " + "|" + " " + fname + " " + "|" + " " + lname + " " + "|" + " " + mname + " " + "|" + " " + start + " " + "|" + " " + finish + " " + "|" + " " + club);
 
             }
             Console.ReadKey();
