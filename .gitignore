@@ -1,4 +1,6 @@
-.vs
+.vs/
+*.user/
+obj/
+bin/
 Debug/
 Release/
-
