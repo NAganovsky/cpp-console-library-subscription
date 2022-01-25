@@ -13,8 +13,8 @@ namespace main_project
 
         public struct time
         {
-            public DateTime start;
-            public DateTime finish;
+            public string start;
+            public string finish;
         }
 
         public struct info
