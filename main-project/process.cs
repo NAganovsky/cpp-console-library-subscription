@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace main_project
 {
-    internal class process
+    public class process
     {
+        public DateTime fun(string[,] mass)
+        {
+            int count = mass.getLength(0);
+            TimeSpan max = new TimeSpan(00, 00, 00);
+            for (int i = 0; i < count; i++)
+            {
+                DateTime start1 = Convert.ToDateTime(mas[i, 0]);
+                DateTime finish1 = Convert.ToDateTime(mas[i, 1]);
+                TimeSpan raz1 = finish1.Subtract(start1);
+                
+                if (raz1 > max)
+                {
+                    max = raz1;
+                }
+
+            }
+            return max;
+        }
     }
 }
